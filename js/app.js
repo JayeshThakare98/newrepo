@@ -4,14 +4,14 @@
     en: {
       brand:"Jayesh & Yojana", navInvite:"Invitation", navFamily:"Families", navContacts:"Contacts", navEvents:"Celebrations",
       invocation:"॥ Shree Ganeshaya Namah ॥", blessing:"With the blessings of our families", openPrompt:"A joyful celebration awaits", openButton:"Open the invitation", skip:"Skip to invitation",
-      inviteEyebrow:"A royal Indo-Marathi celebration", inviteTitle:"Together with our families", marathiInvite:"A warm invitation", inviteCopy:"With joy in our hearts, we invite you to join us as Jayesh and Yojana begin a new chapter together.", dateLabel:"Date", timeLabel:"Muhurat", calendar:"Add to calendar", share:"Share on WhatsApp", patrika:"Download Patrika", editNote:"Event details are as provided. Mehendi and wedding durations are estimated for the calendar.",
+      inviteEyebrow:"A royal Indo-Marathi celebration", inviteTitle:"Together with our families", marathiInvite:"A warm invitation", inviteCopy:"With joy in our hearts, we invite you to join us as Jayesh and Yojana begin a new chapter together.", dateLabel:"Date", timeLabel:"Muhurat", countdownTitle:"Counting down to our wedding", countDaysLabel:"Days", countHoursLabel:"Hours", countMinutesLabel:"Minutes", countSecondsLabel:"Seconds", countdownComplete:"The wedding celebration is here!", calendar:"Add to calendar", share:"Share on WhatsApp", patrika:"Download Patrika", editNote:"Event details are as provided. Mehendi and wedding durations are estimated for the calendar.",
       familyEyebrow:"Two families, one celebration", familyTitle:"Our Families", groomFamily:"Jayesh Family", brideFamily:"Yojana's family", contactEyebrow:"We are happy to help", contactTitle:"Contact Our Hosts", contactAction:"MESSAGE ON WHATSAPP ↗", eventsEyebrow:"Auspicious moments", eventsTitle:"Wedding Celebrations", eventsNote:"Event details are as provided. Mehendi and wedding durations are estimated for the calendar download.", closingEyebrow:"Your presence is our blessing", closingTitle:"We look forward to celebrating with you", closingNames:"Jayesh & Yojana, with our families", closingBlessing:"Mahadev Prasanna", footer:"Made with love for our wedding celebration", unknownEvent:"Ceremony details to be confirmed", calendarMissing:"Add the confirmed wedding date and time in js/config.js before creating a calendar event.",
       shareText:"You are warmly invited to celebrate the wedding of Jayesh and Yojana. We look forward to sharing this special day with you!", musicOn:"Pause wedding music", musicOff:"Play wedding music", opened:"Invitation opened"
     },
     mr: {
       brand:"जयेश आणि योजना", navInvite:"निमंत्रण", navFamily:"परिवार", navContacts:"संपर्क", navEvents:"सोहळे",
       invocation:"॥ श्री गणेशाय नमः ॥", blessing:"आमच्या कुटुंबीयांच्या आशीर्वादाने", openPrompt:"आनंदाचा मंगल सोहळा आपली वाट पाहत आहे", openButton:"निमंत्रण उघडा", skip:"निमंत्रणाकडे जा",
-      inviteEyebrow:"राजेशाही मराठी विवाह सोहळा", inviteTitle:"आमच्या परिवारांसह", marathiInvite:"सस्नेह निमंत्रण", inviteCopy:"जयेश आणि योजना यांच्या नव्या जीवनप्रवासाच्या मंगल सोहळ्यास आपण उपस्थित राहून शुभाशीर्वाद द्यावेत, ही प्रेमळ विनंती.", dateLabel:"तारीख", timeLabel:"मुहूर्त", calendar:"दिनदर्शिकेत जोडा", share:"व्हॉट्सॲपवर निमंत्रण पाठवा", patrika:"पत्रिका डाउनलोड करा", editNote:"कार्यक्रमांचे तपशील दिल्याप्रमाणे आहेत. दिनदर्शिकेसाठी मेहंदी आणि विवाहाचा कालावधी अंदाजे ठेवला आहे.",
+      inviteEyebrow:"राजेशाही मराठी विवाह सोहळा", inviteTitle:"आमच्या परिवारांसह", marathiInvite:"सस्नेह निमंत्रण", inviteCopy:"जयेश आणि योजना यांच्या नव्या जीवनप्रवासाच्या मंगल सोहळ्यास आपण उपस्थित राहून शुभाशीर्वाद द्यावेत, ही प्रेमळ विनंती.", dateLabel:"तारीख", timeLabel:"मुहूर्त", countdownTitle:"विवाह सोहळ्याची उलटगणती", countDaysLabel:"दिवस", countHoursLabel:"तास", countMinutesLabel:"मिनिटे", countSecondsLabel:"सेकंद", countdownComplete:"विवाह सोहळा आज आहे!", calendar:"दिनदर्शिकेत जोडा", share:"व्हॉट्सॲपवर निमंत्रण पाठवा", patrika:"पत्रिका डाउनलोड करा", editNote:"कार्यक्रमांचे तपशील दिल्याप्रमाणे आहेत. दिनदर्शिकेसाठी मेहंदी आणि विवाहाचा कालावधी अंदाजे ठेवला आहे.",
       familyEyebrow:"दोन परिवार, एक मंगल सोहळा", familyTitle:"आमचे परिवार", groomFamily:"जयेशचे कुटुंब", brideFamily:"योजना यांचा परिवार", contactEyebrow:"आम्ही मदतीसाठी उपलब्ध आहोत", contactTitle:"आमच्या यजमानांशी संपर्क साधा", contactAction:"व्हॉट्सॲपवर संदेश पाठवा ↗", eventsEyebrow:"मंगल क्षण", eventsTitle:"विवाह सोहळे", eventsNote:"कार्यक्रमांचे तपशील दिल्याप्रमाणे आहेत. दिनदर्शिकेसाठी मेहंदी आणि विवाहाचा कालावधी अंदाजे ठेवला आहे.", closingEyebrow:"आपली उपस्थिती हाच आशीर्वाद", closingTitle:"आपल्यासोबत आनंद साजरा करण्यास उत्सुक", closingNames:"जयेश आणि योजना, परिवारासह", closingBlessing:"महादेव प्रसन्न", footer:"आमच्या विवाह सोहळ्यासाठी प्रेमाने बनवले", unknownEvent:"कार्यक्रमाचा तपशील निश्चित करायचा आहे", calendarMissing:"दिनदर्शिकेतील कार्यक्रम तयार करण्यासाठी js/config.js मध्ये विवाहाची निश्चित तारीख आणि वेळ भरा.",
       shareText:"जयेश आणि योजना यांच्या विवाह सोहळ्यास आपण सस्नेह आमंत्रित आहात. या मंगल क्षणी आपणासोबत आनंद साजरा करण्यास आम्ही उत्सुक आहोत.", musicOn:"विवाह संगीत थांबवा", musicOff:"विवाह संगीत सुरू करा", opened:"निमंत्रण उघडले"
     }
@@ -23,7 +23,7 @@
     lang = next; document.documentElement.lang = next === "mr" ? "mr" : "en";
     document.querySelectorAll("[data-i18n]").forEach(el => { const key=el.dataset.i18n; if(copy[lang][key]) el.textContent=copy[lang][key]; });
     $("#languageToggle").textContent = next === "en" ? "मराठी" : "English";
-    renderEvents(); renderWeddingDate(); setMusicButton();
+    renderEvents(); renderWeddingDate(); renderCountdown(); setMusicButton();
   }
   function renderWeddingDate() {
     if (!cfg.weddingDate || !cfg.muhurat) return;
@@ -41,6 +41,20 @@
     $("#footerCouple").textContent = lang === "mr" ? `${cfg.couple.groomMr} आणि ${cfg.couple.brideMr}` : `${cfg.couple.groom} & ${cfg.couple.bride}`;
     document.title = lang === "mr" ? "जयेश आणि योजना — विवाह निमंत्रण" : "Jayesh & Yojana | Wedding Invitation";
     renderFamilies(); renderContacts();
+  }
+  function renderCountdown() {
+    if (!cfg.weddingDate || !cfg.muhurat) return;
+    const target = new Date(`${cfg.weddingDate}T${cfg.muhurat}:00+05:30`).getTime();
+    let remaining = Math.max(0, target - Date.now());
+    const day = 86400000, hour = 3600000, minute = 60000;
+    const days = Math.floor(remaining / day); remaining %= day;
+    const hours = Math.floor(remaining / hour); remaining %= hour;
+    const minutes = Math.floor(remaining / minute); const seconds = Math.floor((remaining % minute) / 1000);
+    $("#countDays").textContent = String(days).padStart(2, "0");
+    $("#countHours").textContent = String(hours).padStart(2, "0");
+    $("#countMinutes").textContent = String(minutes).padStart(2, "0");
+    $("#countSeconds").textContent = String(seconds).padStart(2, "0");
+    $("#countdownTitle").textContent = target <= Date.now() ? t("countdownComplete") : t("countdownTitle");
   }
   function formatDate(dateValue) {
     const date=new Date(`${dateValue}T00:00:00+05:30`);
@@ -138,6 +152,7 @@
   // A quiet, lightweight petal drift; no controls intercept page interaction.
   if(!matchMedia("(prefers-reduced-motion: reduce)").matches) setInterval(()=>launchPetals(1),Math.max(1800,60000/(cfg.petalsPerMinute||16)));
   setLanguage("en");
+  renderCountdown(); setInterval(renderCountdown, 1000);
   // Attempt gentle autoplay. If the browser blocks it, the music button remains available.
   startMusic();
 })();

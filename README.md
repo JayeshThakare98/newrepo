@@ -16,7 +16,7 @@ The family and schedule details appear in `WEDDING-DETAILS-FORM.md`:
 2. The supplied original PDF is already in `assets/` and the invitation's Patrika link downloads it.
 3. Update event names, times, or venues in the configuration if they change.
 
-The site includes an animated envelope, accessible Ganesh SVG line art, bilingual content, family introduction, WhatsApp host buttons, four event cards, WhatsApp invitation sharing, a calendar download containing all events, and synthesized low-volume shehnai-inspired music with an autoplay attempt and manual fallback. Autoplay may be blocked by the browser. Mehendi and wedding durations are estimated at two hours for calendar entries; Haldi and Sneh Bhojan use the supplied end times. Petal motion respects reduced-motion settings.
+The site includes an animated envelope, accessible Ganesh SVG line art, bilingual content, a live countdown to the wedding muhurat, family introduction, WhatsApp host buttons, four event cards, WhatsApp invitation sharing, a calendar download containing all events, and synthesized low-volume shehnai-inspired music with an autoplay attempt and manual fallback. Autoplay may be blocked by the browser. Mehendi and wedding durations are estimated at two hours for calendar entries; Haldi and Sneh Bhojan use the supplied end times. Petal motion respects reduced-motion settings.
 
 ## Project files
 
