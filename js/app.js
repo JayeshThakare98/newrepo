@@ -16,8 +16,10 @@
       shareText:"जयेश आणि योजना यांच्या विवाह सोहळ्यास आपण सस्नेह आमंत्रित आहात. या मंगल क्षणी आपणासोबत आनंद साजरा करण्यास आम्ही उत्सुक आहोत.", musicOn:"विवाह संगीत थांबवा", musicOff:"विवाह संगीत सुरू करा", opened:"निमंत्रण उघडले"
     }
   };
-  let lang = "en", opened = false, audioContext = null, musicPlaying = false, musicTimer = null;
+  let lang = "en", opened = false, musicPlaying = false;
   const $ = (s) => document.querySelector(s);
+  const weddingMusic = $("#weddingMusic");
+  weddingMusic.volume = 0.55;
   const t = (key) => copy[lang][key] || copy.en[key] || key;
   function setLanguage(next) {
     lang = next; document.documentElement.lang = next === "mr" ? "mr" : "en";
@@ -122,26 +124,16 @@
     const btn=$("#musicToggle"); btn.textContent=musicPlaying?"Ⅱ":"♫"; btn.setAttribute("aria-label",musicPlaying?t("musicOn"):t("musicOff"));
   }
   async function startMusic() {
-    try {
-      if(!audioContext) audioContext=new (window.AudioContext||window.webkitAudioContext)();
-      await audioContext.resume();
-      if(audioContext.state!=="running") { musicPlaying=false; setMusicButton(); return; }
-      musicPlaying=true; playPhrase(); clearInterval(musicTimer); musicTimer=setInterval(playPhrase,5000); setMusicButton();
-    } catch { musicPlaying=false; setMusicButton(); }
+    try { await weddingMusic.play(); musicPlaying=true; }
+    catch { musicPlaying=false; }
+    setMusicButton();
   }
   function toggleMusic() {
-    if(musicPlaying) { clearInterval(musicTimer); audioContext.suspend(); musicPlaying=false; setMusicButton(); }
+    if(musicPlaying) { weddingMusic.pause(); musicPlaying=false; setMusicButton(); }
     else startMusic();
   }
-  function playPhrase() {
-    if(!audioContext || audioContext.state!=="running") return;
-    const now=audioContext.currentTime; const notes=[293.66,349.23,392,440,392,349.23,293.66];
-    notes.forEach((freq,i)=>{ const osc=audioContext.createOscillator(), gain=audioContext.createGain(), tone=audioContext.createBiquadFilter();
-      osc.type="sawtooth"; osc.frequency.value=freq; tone.type="lowpass"; tone.frequency.value=780;
-      const at=now+i*.58; gain.gain.setValueAtTime(.0001,at); gain.gain.exponentialRampToValueAtTime(.026,at+.07); gain.gain.exponentialRampToValueAtTime(.0001,at+.52);
-      osc.connect(tone); tone.connect(gain); gain.connect(audioContext.destination); osc.start(at); osc.stop(at+.55);
-    });
-  }
+  weddingMusic.addEventListener("play",()=>{ musicPlaying=true; setMusicButton(); });
+  weddingMusic.addEventListener("pause",()=>{ musicPlaying=false; setMusicButton(); });
   $("#languageToggle").addEventListener("click",()=>setLanguage(lang === "en" ? "mr" : "en"));
   $("#openInvitation").addEventListener("click",openInvitation); $("#openButton").addEventListener("click",openInvitation);
   $("#calendarButton").addEventListener("click",buildCalendar); $("#musicToggle").addEventListener("click",toggleMusic);
@@ -153,6 +145,6 @@
   if(!matchMedia("(prefers-reduced-motion: reduce)").matches) setInterval(()=>launchPetals(1),Math.max(1800,60000/(cfg.petalsPerMinute||16)));
   setLanguage("en");
   renderCountdown(); setInterval(renderCountdown, 1000);
-  // Attempt gentle autoplay. If the browser blocks it, the music button remains available.
+  // Try the supplied wedding song; browsers may block autoplay until a guest interacts.
   startMusic();
 })();
