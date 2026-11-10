@@ -8,7 +8,7 @@ Open `index.html` in a modern browser. For best results, serve the folder using 
 
 ## Edit wedding details
 
-Edit `js/config.js`. The couple names are Jayesh and Yojana (no nicknames). The schedule contains Mehendi (12 Dec, 9 PM, Rohit Mangal Karyalay, Bhivpuri Road, Karjat), Haldi (13 Dec, 5-11 PM), Wedding Muhurat (14 Dec, 1:45 PM), and Sneh Bhojan (14 Dec, 1-3 PM). The original Patrika PDF is included in `assets/` and linked for download. Maps and the residence/accommodation address are not shown on the page.
+Edit `js/config.js`. The couple names are Jayesh and Yojana (no nicknames). The schedule contains Mehendi (12 Dec, 9 PM, Rohit Mangal Karyalay, Bhivpuri Road, Karjat), Haldi (13 Dec, 5-11 PM), Wedding Muhurat (14 Dec, 1:45 PM), and Sneh Bhojan (14 Dec, from 2 PM onwards; end time not confirmed). The Sneh Bhojan calendar duration is currently estimated at two hours and can be edited. The original Patrika PDF is included in `assets/` and linked for download. Maps and the residence/accommodation address are not shown on the page.
 
 The family and schedule details appear in `WEDDING-DETAILS-FORM.md`:
 

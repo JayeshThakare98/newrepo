@@ -30,7 +30,7 @@ window.WEDDING_CONFIG = {
     { id: "mehendi", date: "2026-12-12", time: "21:00", durationMinutes: 120, en: "Mehendi Ceremony", mr: "मेहंदी समारंभ", venue: "Rohit Mangal Karyalay, Bhivpuri Road, Karjat", venueMr: "रोहित मंगल कार्यालय, भिवपुरी रोड, कर्जत" },
     { id: "haldi", date: "2026-12-13", time: "17:00", endTime: "23:00", durationMinutes: 360, en: "Haldi Ceremony", mr: "हळदी समारंभ", venue: "Rohit Mangal Karyalay, Bhivpuri Road, Karjat", venueMr: "रोहित मंगल कार्यालय, भिवपुरी रोड, कर्जत" },
     { id: "wedding", date: "2026-12-14", time: "13:45", durationMinutes: 120, en: "Wedding Muhurat", mr: "विवाह मुहूर्त", venue: "Trived Banquet Hall and Lawns, Turade, Rasayani, Panvel, Raigad", venueMr: "त्रिवेद बँकेट हॉल आणि लॉन्स, तुराडे, रसयानी, पनवेल, रायगड" },
-    { id: "sneh-bhojan", date: "2026-12-14", time: "13:00", endTime: "15:00", durationMinutes: 120, en: "Sneh Bhojan", mr: "स्नेहभोजन", venue: "Trived Banquet Hall and Lawns, Turade, Rasayani, Panvel, Raigad", venueMr: "त्रिवेद बँकेट हॉल आणि लॉन्स, तुराडे, रसयानी, पनवेल, रायगड" }
+    { id: "sneh-bhojan", date: "2026-12-14", time: "14:00", timeNote: "onwards", timeNoteMr: "पासून पुढे", durationMinutes: 120, en: "Sneh Bhojan", mr: "स्नेहभोजन", venue: "Trived Banquet Hall and Lawns, Turade, Rasayani, Panvel, Raigad", venueMr: "त्रिवेद बँकेट हॉल आणि लॉन्स, तुराडे, रसयानी, पनवेल, रायगड" }
   ],
   // The music controls play assets/wedding song.mp3; replace that file to change the track.
   petalsPerMinute: 16

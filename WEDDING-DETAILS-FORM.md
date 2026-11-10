@@ -10,11 +10,11 @@ Your latest choices have been applied. This file records the details used and on
 - Mehendi: Saturday, 12 December 2026, 9:00 PM, Rohit Mangal Karyalay, Bhivpuri Road, Karjat
 - Haldi: Sunday, 13 December 2026, 5:00-11:00 PM, Rohit Mangal Karyalay, Bhivpuri Road, Karjat
 - Wedding venue: Trived Banquet Hall and Lawns, Turade, Rasayani, Panvel, Raigad; near Swami Vivekanand Sanstha School, Gulsunde
-- Sneh Bhojan: 1:00-3:00 PM at the wedding venue (display as “Sneh Bhojan”)
+- Sneh Bhojan: Monday, 14 December 2026, from 2:00 PM onwards at the wedding venue (display as “Sneh Bhojan”); end time not confirmed
 - Stay/address printed under निवासस्थान: Samruddhi Hill View, A/2/203, Pali Road, Bhivpuri Road, Karjat, Raigad
 - Bride family wording: कै. श्री./सौ. प्रतिभा प्रफुल्ल आत्माराम खवले, रा. घाटकोपर, मुंबई यांची ज्येष्ठ कन्या; श्री. नरेश सिताराम चौधरी यांची भाची
 - Closing blessing: महादेव प्रसन्न / Mahadev Prasanna
-- Sneh Bhojan timing (1:00-3:00 PM) overlaps the wedding Muhurat (1:45 PM), as provided
+- Sneh Bhojan end time is not confirmed. The calendar currently uses an editable two-hour estimated duration from 2:00 PM.
 
 ## Applied choices
 

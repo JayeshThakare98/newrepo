@@ -92,7 +92,7 @@
       const info=document.createElement("div");
       const title=document.createElement("h3"); title.textContent=event[lang] || t("unknownEvent");
       const detail=document.createElement("p");
-      const times=event.endTime ? `${formatTime(event.time)} - ${formatTime(event.endTime)}` : formatTime(event.time);
+      const times=event.endTime ? `${formatTime(event.time)} - ${formatTime(event.endTime)}` : `${formatTime(event.time)}${event.timeNote ? ` ${lang === "mr" ? event.timeNoteMr : event.timeNote}` : ""}`;
       detail.textContent=`${formatDate(event.date)} · ${times}`;
       const venue=document.createElement("p"); venue.className="event-venue"; venue.textContent=lang === "mr" ? event.venueMr : event.venue;
       info.append(title,detail,venue); card.append(num,info); box.append(card);
